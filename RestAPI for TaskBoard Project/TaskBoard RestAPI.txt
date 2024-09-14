@@ -1,0 +1,7 @@
+Run the Spring Boot application, which will start a web server and connect to your MongoDB instance.
+The CRUD operations are now available at the endpoints like:
+GET http://localhost:9090/api/tasks/gettask – Fetch all tasks
+GET http://localhost:9090/api/tasks/gettask/{id} – Fetch a task by its ID
+POST http://localhost:9090/api/tasks/creattask– Create a new task
+PUT http://localhost:9090/api/tasks/updatetask/{id} – Update an existing task
+DELETE http://localhost:9090/api/tasks/deletetask/{id} – Delete a task by its ID
